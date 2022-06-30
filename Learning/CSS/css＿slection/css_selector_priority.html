@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css selector priority</title>
+    <style>
+        p{color:blue;}
+        #id-priority{color:black;}
+        .cls-priority{color:orange;}
+    </style>
+</head>
+<body>
+    <!-- priority -->
+    <!-- 1)inline -->
+    <!-- 2)id-selector -->
+    <!-- 3)class-selector -->
+    <!-- 4)element-selector -->
+    <p style="color: green;" class="cls-priority" id="id-priority">priority check</p>
+    
+
+    <table border="1px" cellspacing="0">
+        <tr>
+            <td>love</td>
+        </tr>
+    </table>
+
+</body>
+</html>

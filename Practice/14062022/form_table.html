@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 style="text-align:  center ;">HTML form</h1>
+    <form>
+
+        <table border="0px" cellspacing="0">
+            <!-- input first name -->
+            <tr>
+                <td><label for="Fname">First name</label></td>
+                <!-- <td><input id="fName" type="text" placeholder="Enter your first name" name="FIRSTname"></td>            </tr> -->
+
+            <!-- input last name -->
+            <tr>
+                <td><label for="Lname">Last name</label></td>
+                <td><input id="LName" type="text" placeholder="Enter your last name" name="Lastname"></td>
+            </tr>
+
+            <!-- input password -->
+            <tr>
+                <td><label for="password">Password </label></td>
+                <td><input id="password" type="password" placeholder="Enter your password" name="password"></td>
+            </tr>
+            <!-- input date -->
+            <tr>
+                <td><label for="dob">Date of Birth</label></td>
+                <td> <input id="dob" type="date" placeholder="Enter your dob name" name="DOB">
+                </td>
+            </tr>
+            <!-- input type :check box -->
+            <tr>
+                <td colspan="2">
+                    <label>language:</label>
+
+                    <input type="checkbox" name="java" id="cksjava">
+                    <label for="cksjava">java</label>
+
+                    <input type="checkbox" name="html" id="ckshtml">
+                    <label for="ckshtml">HTML</label>
+
+                    <input type="checkbox" name="CPlus" id="cksCPlus">
+                    <label for="cksCPlus">C++</label>
+                </td>
+            </tr>
+            <tr>
+
+                <td colspan="2">
+                    <label>gender</label>
+
+                    <input type="radio" id="rdomale" name="gender">
+                    <label for="rdomale">male</label>
+
+                    <input type="radio" id="rdofemale" name="gender">
+                    <label for="rdofemale">female</label>
+                </td>
+            </tr>
+
+            <!-- input type radio -->
+            <tr>
+                <td colspan="2">
+                    <label">maritial status</label>
+                        <ul style="list-style: none;">
+                            <li> <input type="radio" name="maritialstatus" id="rdosingal">
+                                <label for="rdosingal">singal</label>
+                            </li>
+                            <li> <input type="radio" name="maritialstatus" id="rdomarried">
+                                <label for="rdomarried">married</label>
+                            </li>
+                            <li> <input type="radio" name="maritialstatus" id="rdodivorse">
+                                <label for="rdodivorse">divorse</label></li>
+                            <li> <input type="radio" name="maritialstatus" id="rdodouble">
+                                <label for="rdodouble">double</label></li>
+                            <li> <input type="radio" name="maritialstatus" id="rdowidow">
+                                <label for="rdowidow">widow</label></li>
+                        </ul>
+                </td>
+            </tr>
+
+            <!-- multiline text area -->
+            <tr>
+                <td colspan="2">
+                    <textarea name="yourcomment" id="txtacomment" cols="50" rows="10"></textarea><br>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <!-- selection -->
+                    <label>country</label></td>
+                <td>
+                    <select name="country" id="selcountry">
+                        <option value="">nepal</option>
+                        <option value="">manmmmar</option>
+                        <option value="">india</option>
+                        <option value="">japan</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2">
+                    <!-- to submit -->
+                    <input type="submit" value="Login"><br>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>

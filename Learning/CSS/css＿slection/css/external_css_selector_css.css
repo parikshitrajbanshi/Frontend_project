@@ -1,0 +1,11 @@
+h1{color: gold;}
+label{color:red;}
+ p{color:yellow}
+ p{color:black}
+
+ /* selector: element class name */
+ .one{color:yellow}
+ .two{color:black}
+
+ /* selector :id-name */
+ #three{font-size: 40px;}
